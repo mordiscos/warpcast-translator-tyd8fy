@@ -1,0 +1,19 @@
+{
+  "name": "warpcast-translator-tyd8fy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "frog vercel-build",
+    "dev": "frog dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "frog": "latest",
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5",
+    "vercel": "^34.1.1"
+  }
+}
